@@ -1,0 +1,305 @@
+@font-face {
+    font-family: 'bergamot_ornamentsregular';
+    src: url('../fonts/bergamot_ornaments-webfont.woff2') format('woff2'),
+         url('..fonts/bergamot_ornaments-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    /* font-size: 0.9em; */
+}
+/* section general css */
+.white{
+    background-color: white;
+    max-width: 80%;
+}
+.articletitle{
+    color: #e4c66b;
+    font-family: 'Yeseva One', cursive;
+}
+
+section{
+    text-align: center;
+}
+section > .container {
+    margin: 0 auto;
+    display: flex;
+    width: 80vw;
+    height: 100%;
+}
+.ornament{
+    font-family: 'bergamot_ornamentsregular';
+    /* text-align: center; */
+    font-size: 3em;
+    color:black;
+  }
+
+  .imgscale {
+      max-width: 100%;
+      height: auto;
+  }
+/* Hero CSS */
+.hero{
+    background-image: url(../img/sla.jpg);
+    background-position: center;
+    background-size: cover;
+    /* width: 100vw; */
+    height: 100vh;
+    /* max-width: 100vw; */
+    margin: auto;
+    font-family: 'Yeseva One', cursive;
+    position: relative;
+}
+
+.sla{
+   width: 100%;
+}
+
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 5em;
+    height: auto;
+    width: auto;
+}
+
+.gradient{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(255,0,0,0));
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 20vh;
+}
+
+.title {
+    font-family: 'Yeseva One', cursive;
+    /* font-family: arial; */
+    font-weight: normal;
+    color: white;
+    font-size: 4em;
+    position: absolute;
+    top: 10rem;
+    width: 100%;
+    /* text-align: center; */
+}
+
+/* Hero buttons */
+.buttons {
+    position: absolute;
+    top: 23em;
+    width: 100%;
+    /* text-align: center; */
+}
+
+.button {
+    display: inline-block;
+    padding: 1em 2em;
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.book {
+    background: black;
+}
+
+.seeMenu{
+    background:rgba(255,255,255,0.7);
+}
+
+/* Menu links */
+.menu {
+    position: absolute;
+    right: 17em;
+    top: 0em;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 1em;
+}
+.menu > li > a {
+    color: white;
+    text-decoration: none;
+    /* font-size: 2em; */
+}
+
+/* Social media links */
+.social {
+    position: absolute;
+    right: 7em;
+    top: 0em;
+}
+.social > li{
+    /* display: inline-block;
+    list-style: none;
+    padding: 0.2em; */
+    color: rgba(255, 255, 0, 0.527);
+}
+
+/* Food CSS */
+.food{
+    margin: 0 auto;
+    /* justify-content: center; */
+}
+.col{
+    width: 50%;
+    margin: auto;
+    padding: 3em;
+}
+
+/* Ingredients CSS */
+.ingredients{
+    background-image: url(../img/bg.png);    
+    /* background-position: center; */
+    background-size: cover;
+    /* height: 100vh; */
+    /* text-align: center; */
+    color: white;
+    padding: 4em 0;
+}
+.ingredientcontainer {
+    background-color:rgba(0, 0, 0, 0.425);
+    padding: 3em;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredientcontainer > * {
+    margin: 2em 0;
+}
+
+.imgingredients{
+    display: flex;
+    justify-content: center;
+}
+.titleingredients{
+    font-family: 'Yeseva One', cursive;
+    /* font-family: arial; */
+    font-weight: normal;
+    color: white;
+    font-size: 4em;
+}
+.test{
+    vertical-align: middle;
+
+}
+
+/* Restaurantmenu */
+.restaurantmenu{
+    background-image: url(../img/pattern-honing.png)
+}
+.column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.menuitem {
+    /* text-align: center; */
+    width: 50%;
+    padding: 2em;
+}
+.menudetail {
+    width: 100%;
+}
+.thleft {
+    text-align: left;
+}
+.thright {
+    text-align: right;
+}
+.line {
+    /* display: inline-block; */
+    padding-bottom: 1em;
+    border-bottom: 2px solid #e4c66b;
+}
+.tddetail{
+    text-align: left;
+    /* display: inline-block; */
+    font-size: 0.75em;
+    width: 100%;
+    padding: 1em 0;
+}
+
+/* Reviews */
+.reviews{
+    background-image:url(../img/sate.png);
+    display: flex;
+}
+.reviewContainer{
+    width: 50%;
+    margin:auto;
+    color: white;
+    /* text-align: center; */
+}
+
+/* form */
+.formsection{
+    background-image: url(../img/pattern.png)
+}
+.imgform{
+    max-width: 60%;
+    height: auto;
+    padding-right: 1em;
+}
+.imgcontainer{
+    padding: 3em 0;
+}
+.forminput{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    text-align: left;
+    color: #e4c66b;
+
+}
+.formelement {
+    flex: 0 0 50%;
+    /* width: 50%; */
+    /* padding: 1em 0; */
+}
+
+.formelement > label{
+    display: inline-block;
+    margin: 1.5em 0 0.5em 0;
+}
+.formbutton{
+    background-color: #e4c66b;
+    padding: 1em 5em;
+}
+.formbutton a{
+    color: white;
+    text-decoration: none;   
+}
+
+/* Footer css */
+.footer {
+    background-color: black;
+}
+.footer .container{
+    color: white;
+
+}
+.footer .container > * {
+    width: calc(100% /3);
+    /* text-align: center; */
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 0.5em;    
+    }
+    .imgscale {
+        /* height: 3.5em; */
+    }
+    .imgingredients{
+        flex-direction: column;
+    }
